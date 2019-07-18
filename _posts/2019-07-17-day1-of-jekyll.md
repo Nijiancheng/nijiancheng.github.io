@@ -1,14 +1,3 @@
-```
-layout: post
-title:  "day1!"
-date:   2017-09-05 14:10:51 +0800
-categories: Jekyll
-tags: Jekyll
-description: The read me page of Jekyll.
-```
-
-
-
 # DAY1
 
 2019年7月17日

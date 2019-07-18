@@ -4,17 +4,17 @@ ubuntu安装QQ
 
 `git clone https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu.git `
 
-![](/home/nijiancheng/图片/2019-07-18 09-31-42QQ下载所在文件.png)
+![](/assets/images/2019-07-18 09-31-42QQ下载所在文件.png)
 
 2、进入为文件
 
 `cd deepin-wine-for-ubuntu`
 
-![](/home/nijiancheng/图片/2019-07-18 09-31-42QQ下载所在文件.png)
+![](/assets/images/2019-07-18 09-31-42QQ下载所在文件.png)
 
 `./install.sh`
 
-![](/home/nijiancheng/图片/2019-07-18 09-32-44QQ文件启动.png)
+![](/assets/images/2019-07-18 09-32-44QQ文件启动.png)
 
 3、安装qq
 
@@ -24,11 +24,11 @@ ubuntu安装QQ
 
 `sudo apt-get install -f`
 
-![](/home/nijiancheng/图片/2019-07-18 09-31-04下载ubuntuQQ命令.png)
+![](/assets/images/2019-07-18 09-31-04下载ubuntuQQ命令.png)
 
 4、在显示应用程序搜索`qq`,双击打开就行
 
-![](/home/nijiancheng/图片/2019-07-18 09-32-44找到qq.png)
+![](/assets/images/2019-07-18 09-32-44找到qq.png)
 
 就可以登陆了
 
