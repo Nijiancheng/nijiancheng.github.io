@@ -8,7 +8,12 @@
 		
 			<item>
 				<title>Day1 Of Jekyll</title>
-				<description>&lt;h3 id=&quot;day1&quot;&gt;DAY1&lt;/h3&gt;
+				<description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: Git manual
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;day1&quot;&gt;DAY1&lt;/h3&gt;
 
 &lt;p&gt;2019年7月17日&lt;/p&gt;
 

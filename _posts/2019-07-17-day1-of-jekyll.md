@@ -1,3 +1,9 @@
+```
+---
+layout: post
+title: Git manual
+---
+```
 ### DAY1
 
 2019年7月17日
