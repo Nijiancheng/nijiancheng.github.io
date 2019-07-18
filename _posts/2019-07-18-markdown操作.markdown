@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "markdown操作"
+date:   2017-09-05 14:10:51 +0800
+categories: Note
+tags: Note
+description: This is just another copy of the read me page of Jekyll.
+---
 ### markdown操作
 
 #### 标题：
@@ -6,7 +14,7 @@
 
 ​			## 二级标题
 
-​			### 三级标题	
+​			### 三级标题
 
 ​			#### 四级标题
 
@@ -57,4 +65,3 @@
  无序列表：-  +  *
 
  有序列表： 数字 加上 点
-

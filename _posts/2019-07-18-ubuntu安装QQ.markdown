@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "ubuntu安装QQ"
+date:   2017-09-05 14:10:51 +0800
+categories: Note
+tags: Note
+description: This is just another copy of the read me page of Jekyll.
+---
 ubuntu安装QQ
 
 1、**下载deepin-wine-ubuntu环境**
@@ -18,11 +26,15 @@ ubuntu安装QQ
 
 3、安装qq
 
-`wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.im/deepin.com.qq.im_8.9.19983deepin23_i386.deb`
+```
+wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.im/deepin.com.qq.im_8.9.19983deepin23_i386.deb
 
-`sudo dpkg -i deepin.com.qq.im_8.9.19983deepin23_i386.deb`
+sudo dpkg -i deepin.com.qq.im_8.9.19983deepin23_i386.deb
 
-`sudo apt-get install -f`
+sudo apt-get install -f
+```
+
+
 
 ![](/assets/images/2019-07-18 09-31-04下载ubuntuQQ命令.png)
 
@@ -35,4 +47,3 @@ ubuntu安装QQ
 
 
 注意：不知道别人是不是这样，我的qq一缩小就退出，登陆时无法识别数字按键，小键盘打开会藏在登陆框后面无法点击，所以只能用扫码登陆
-
