@@ -111,3 +111,15 @@
 ​		`cd myblog`  转到新目录
 
 ​		`bundle exec jekyll serve`构建站点并在本地服务器上使用
+
+<br/>
+
+### Thanks：
+
+1，[Chris.com][chris-ascii-art]
+
+2，[ASCII Generator][ascii-generator]
+
+[chris-ascii-art]: http://www.chris.com/ascii/
+[ascii-generator]: http://www.network-science.de/ascii/
+[welcome-lost-in-xixia]: http://xixia.info/welcome-lost-in-xixia
