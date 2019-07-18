@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "ubuntu安装QQ"
-date:   2017-09-05 14:10:51 +0800
+date:   2019-07-18 19:00:01 +0800
 categories: Note
 tags: Note
-description: This is just another copy of the read me page of Jekyll.
+description: ubuntu安装QQ.
 ---
 ubuntu安装QQ
 

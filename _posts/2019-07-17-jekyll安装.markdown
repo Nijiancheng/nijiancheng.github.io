@@ -4,7 +4,7 @@ title:  "jekyll安装"
 categories: Note
 tags: Note
 author: 倪建成
-description: The read me page of jekyll-xixia.
+description: jekyll操作.
 ---
 ### jekyll
 
