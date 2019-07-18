@@ -1,10 +1,15 @@
 ```
----
 layout: post
-title: Git manual
----
+title:  "day1!"
+date:   2017-09-05 14:10:51 +0800
+categories: Jekyll
+tags: Jekyll
+description: The read me page of Jekyll.
 ```
-### DAY1
+
+
+
+# DAY1
 
 2019年7月17日
 
@@ -58,6 +63,13 @@ title: Git manual
 
  	help + <Enter>: 查看帮助
 
+选中后就可以用编辑命令对其进行编辑，如 
+	d   删除 
+
+​	y   复制 （默认是复制到"寄存器） 
+
+​	p  粘贴 （默认从"寄存器取出内容粘贴）
+
 ### 安装git
 
 ​	apt-get install git
@@ -78,54 +90,27 @@ title: Git manual
 
  	2.本地拉取远程仓库
 
-​			1.`git init` 初始化
+​			1.初始化`git init` 
 
 ​			2.`git config --global  user.name  'github上注册的用户名';`
 
 ​			3.`git config --global user.email '注册时候邮箱'；`
 
-​			4.`git clone https://github.com/username/username.github.io`     username是用户自己的注册名；
+​			4.克隆远程库到本地
 
- 	   	5.`cd username.github.io` 移动到本地拉取的库中
+​				`git clone https://github.com/username/username.github.io`     username是用户自己的注册名；
 
-​			6.新建文件
+ 	   	5.移动到本地拉取的库文件中
 
-​			7.git add --all 将新建文件添加到一个存储区
+​				`cd username.github.io` 
+
+​		3.提交数据到远程github中
+
+​			1.查看更改的文件 git status
+
+​			7.将新建文件添加到一个存储区 git add --all （添加全部更改文件） /git add 文件名 （添加某个文件）
 
 ​			8.git commit -m "本次操作的简述"
 
 ​			9.git push -u origin master  上传到远端
 
-### jekyll 
-
-​		`sudo apt-get install ruby-full build-essential zlib1g-dev`  安装环境要求文件
-
-​		将环境变量写入文件配置中
-
-​	    `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
-
-​		`echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
-
-​		`echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
-
-​		`source ~/.bashrc`
-
-​		`gem install jekyll bundler` 安装jekyll
-
-​		`jekyll new myblog` 创建一个新的jekyll网站
-
-​		`cd myblog`  转到新目录
-
-​		`bundle exec jekyll serve`构建站点并在本地服务器上使用
-
-<br/>
-
-### Thanks：
-
-1，[Chris.com][chris-ascii-art]
-
-2，[ASCII Generator][ascii-generator]
-
-[chris-ascii-art]: http://www.chris.com/ascii/
-[ascii-generator]: http://www.network-science.de/ascii/
-[welcome-lost-in-xixia]: http://xixia.info/welcome-lost-in-xixia

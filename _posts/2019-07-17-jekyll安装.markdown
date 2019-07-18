@@ -1,0 +1,31 @@
+### jekyll 
+
+安装环境要求文件
+
+​		`sudo apt-get install ruby-full build-essential zlib1g-dev`  
+
+将环境变量写入文件配置中
+
+​	    `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
+
+​		`echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
+
+​		`echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
+
+​		`source ~/.bashrc`
+
+安装jekyll
+
+​		`gem install jekyll bundler` 
+
+创建一个新的jekyll网站
+
+​		`jekyll new myblog` 
+
+转到新目录
+
+​		`cd myblog`  
+
+构建站点并在本地服务器上使用
+
+​		`bundle exec jekyll serve`
