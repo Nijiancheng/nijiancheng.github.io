@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "2019-07-24-ajax进入error区间"
+categories: Note
+tags: Note
+description: 2019-07-24-ajax进入error区间.
+---
+
+#### AJAX：
+
+​	原生请求过程：
+
+ 1. 创建XMLHttpRequest对象
+
+    `var xml = new XMLHttpRequest()`;
+
+	2. 注册回调函数
+
+    ```js
+    function dome (){
+     	xml.onreadystatechange = callback;
+    }
+    ```
+
+	3. 配置请求信息
+
+    `open('传输方式'，地址[参数]，[true|false])`;
+
+    若是get方式传输则参数写在地址后面，若是post传输则写在send()之中
+
+	4. 发送请求
+
+    send(string);
+
+	5. 接收响应
+
+    ```js
+    xml.onreadystartchange = function(){
+        //判断返回的readyStart请求状态
+        //status 请求状态码
+    	//成功返回数据则直接处理
+    	//失败则报错
+    }
+    ```
+
+注意：
+
+  **GET方式：在open()方法的url参数后面拼接参数，然后send()发送一个请求过去即可。**
+
+　　　　　　--用于获取数据（如浏览贴子）把数据放在URL（网址）里面来提交；安全性低、容量低、便于分享（将网址发给别人）
+
+​     POST方式：open()方法URL不携带参数，在send()中传递参数列表发送请求，并且在发送请求前需要设置请求头的Content-Type属性。
+
+​							--用于上传数据（如用户注册）把数据放在不是URL的地方；安全性一般、容量几乎无限、不便于分享
+
+
+
+#### error报错：
+
+	1. 请求失败，直接查看报错信息
+ 	2. 如果请求成功但进了error区间
+      	1. 可能返回的数据类型不对
+      	2. 没有返回数据
+      	3. 定义的ajax接收数据类型不相同

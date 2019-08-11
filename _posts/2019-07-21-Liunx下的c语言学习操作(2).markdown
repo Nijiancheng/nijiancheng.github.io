@@ -1,0 +1,100 @@
+---
+layout: post
+title:  "2019-07-21-Liunx 下的c语言学习操作(2)"
+categories: Note
+tags: Note
+description: 2019-07-21-liunx 下的c语言学习操作(2).
+---
+
+#### main函数详解：
+
+​	main函数中的return：
+
+​		当程序运行没有问题的时候，return一个0，return其他数都表示程序运行出错。
+
+​	main函数的两个参数：
+
+​		int argv ：表示文件名加上参数的个数
+
+​		![](/assets/images/2019-07-21 09-47-01-argv.png)
+
+​		char* argc[] :表示文件名和所有参数所组成的数组
+
+​		![](/assets/images/2019-07-21 10-08-07-argc显示所有参数.png)
+
+---
+
+#### 输入输出流和错误流：
+
+​	输入流：stdin 默认是标准键盘
+
+​	输出流：stdout 默认是标准显示屏
+
+​	错误流：stderr 程序出错执行
+
+​	fprintf(stdout,"内容"，变量)；
+
+​	prints("内容"，变量)；对fprintf的封装					
+
+​	fscanf(stdin，"%d"，&x)；接收键盘的输入信息
+
+​	scanf(): 对fscanf的封装
+
+---
+
+#### 重定向：
+
+​	可以将原本默认的输入、输出或报错目标进行更改。
+
+​	执行文件 >> 目标文件  将执行结果输出到目标文件
+
+​	执行文件 << 目标文件  将目标文件的内容输入执行文件	
+
+​	> :表示每次都会刷新目标文件
+
+​	>>:表示每次的输出都会接着上一次的输出进行
+
+---
+
+#### 管道原理：
+
+​	管道符：|  ；将管道符前的命令输出流作为管道符后命令的输入流
+
+​	可以连接多个方法完成一整个功能流程
+
+​	以此完成一个c语言小程序
+
+```c
+#include <stdio.h>
+求和：
+int main ()
+{
+    int flag=1;
+    int count=0;
+    int i;
+    int sum=0;
+    while(flag){
+        scanf("%d",&i);
+        if(0==i)break;
+        count ++;
+        sum +=i;
+    }
+    printf("%d,%d \n",sum,count);
+    return 0;
+}
+求平均数：
+int main()
+{
+    int i,j;
+    int s;
+    scanf("%d,%d",&i,&j);
+    s=i/j;
+    printf("平均数是%d \n",s);
+    return 0;
+}
+
+./sum.out | ./avg.out  
+```
+
+
+

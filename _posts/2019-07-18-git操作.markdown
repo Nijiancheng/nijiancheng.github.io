@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "github操作"
+date:   2019-07-15 19:01:51 +0800
+categories: Note
+tags: Note
+description: github操作.
+---
+### 安装git
+
+​	1.apt-get install git
+
+### github操作
+
+ 	1.创建仓库 名为 username.github.io
+
+ 	2.本地拉取远程仓库
+
+​			1.初始化`git init`
+
+​			2.`git config --global  user.name  'github上注册的用户名';`
+
+​			3.`git config --global user.email '注册时候邮箱'；`
+
+​			4.克隆远程库到本地
+
+​				`git clone https://github.com/username/username.github.io`     username是用户自己的注册名；
+
+ 	   	5.移动到本地拉取的库文件中
+
+​				`cd username.github.io`
+
+​		3.提交数据到远程github中
+
+​			1.查看更改的文件 git status
+
+​			7.将新建文件添加到一个存储区 git add --all （添加全部更改文件） /git add 文件名 （添加某个文件）
+
+​			8.git commit -m "本次操作的简述"
+
+​			9.git push -u origin master  上传到远端

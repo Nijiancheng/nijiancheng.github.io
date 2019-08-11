@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "jekyll安装"
+categories: Note
+tags: Note
+author: 倪建成
+description: jekyll操作.
+---
+### jekyll
+
+安装环境要求文件
+
+​		`sudo apt-get install ruby-full build-essential zlib1g-dev`  
+
+将环境变量写入文件配置中
+
+​	    `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
+
+​		`echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
+
+​		`echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
+
+​		`source ~/.bashrc`
+
+安装jekyll
+
+​		`gem install jekyll bundler`
+
+创建一个新的jekyll网站
+
+​		`jekyll new myblog`
+
+转到新目录
+
+​		`cd myblog`  
+
+构建站点并在本地服务器上使用
+
+​		`bundle exec jekyll serve`
+
+### jekyll博客使用中出现的问题
+
+jekyll博客后台运行：
+
+​	`jekyll serve --detach `
+
+由于某个后台运行正在启动，再次启动该服务会报错
+
+​	`Error:  Address already in use - bind(2) for 127.0.0.1:4000`
+
+![](/assets/images/2019-07-18 11-47-06服务端口被占用报错信息.png)
+
+
+
+可以用下面命令查看端口被什么服务占用：
+
+​	`lsof -i ：端口号`
+
+![](/assets/images/2019-07-18 11-51-44占用端口的服务.png)
+
+停止占用端口的服务：
+
+​	`kill -9 3237  （3237是服务号）`
+
+![](/assets/images/2019-07-18 11-52-19停掉占用端口的服务.png)
