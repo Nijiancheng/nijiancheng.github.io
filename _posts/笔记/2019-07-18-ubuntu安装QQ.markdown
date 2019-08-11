@@ -2,30 +2,31 @@
 layout: blog
 istop: true
 title: "ubuntu安装qq"
-background-image: 
-date:  2019-07-18
+background-image:
+date: 2019-07-18
 category: 笔记
 tags: ubuntu安装qq
 ---
-ubuntu安装QQ
 
-1、**下载deepin-wine-ubuntu环境**
+ubuntu 安装 QQ
 
-`git clone https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu.git `
+1、**下载 deepin-wine-ubuntu 环境**
 
-![](/assets/images/2019-07-18 09-31-42QQ下载所在文件.png)
+`git clone https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu.git`
+
+![](/style/images/2019-07-18 09-31-42QQ 下载所在文件.png)
 
 2、进入为文件
 
 `cd deepin-wine-for-ubuntu`
 
-![](/assets/images/2019-07-18 09-31-42QQ下载所在文件.png)
+![](/style/images/2019-07-18 09-31-42QQ 下载所在文件.png)
 
 `./install.sh`
 
-![](/assets/images/2019-07-18 09-32-44QQ文件启动.png)
+![](/style/images/2019-07-18 09-32-44QQ 文件启动.png)
 
-3、安装qq
+3、安装 qq
 
 ```
 wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.qq.im/deepin.com.qq.im_8.9.19983deepin23_i386.deb
@@ -35,16 +36,12 @@ sudo dpkg -i deepin.com.qq.im_8.9.19983deepin23_i386.deb
 sudo apt-get install -f
 ```
 
-
-
-![](/assets/images/2019-07-18 09-31-04下载ubuntuQQ命令.png)
+![](/style/images/2019-07-18 09-31-04 下载 ubuntuQQ 命令.png)
 
 4、在显示应用程序搜索`qq`,双击打开就行
 
-![](/assets/images/2019-07-18 09-32-44找到qq.png)
+![](/style/images/2019-07-18 09-32-44 找到 qq.png)
 
 就可以登陆了
 
-
-
-注意：不知道别人是不是这样，我的qq一缩小就退出，登陆时无法识别数字按键，小键盘打开会藏在登陆框后面无法点击，所以只能用扫码登陆
+注意：不知道别人是不是这样，我的 qq 一缩小就退出，登陆时无法识别数字按键，小键盘打开会藏在登陆框后面无法点击，所以只能用扫码登陆

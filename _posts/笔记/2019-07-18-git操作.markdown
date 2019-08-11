@@ -2,41 +2,42 @@
 layout: blog
 istop: true
 title: "git 安装"
-background-image: 
-date:  2019-07-18
+background-image:
+date: 2019-07-18
 category: 笔记
 tags: git 安装
 ---
-### 安装git
 
-​	1.apt-get install git
+### 安装 git
 
-### github操作
+​ 1.apt-get install git
 
- 	1.创建仓库 名为 username.github.io
+### github 操作
 
- 	2.本地拉取远程仓库
+1.创建仓库 名为 username.github.io
 
-​			1.初始化`git init`
+2.本地拉取远程仓库
 
-​			2.`git config --global  user.name  'github上注册的用户名';`
+​ 1.初始化`git init`
 
-​			3.`git config --global user.email '注册时候邮箱'；`
+​ 2.`git config --global user.name 'github上注册的用户名';`
 
-​			4.克隆远程库到本地
+​ 3.`git config --global user.email '注册时候邮箱'；`
 
-​				`git clone https://github.com/username/username.github.io`     username是用户自己的注册名；
+​ 4.克隆远程库到本地
 
- 	   	5.移动到本地拉取的库文件中
+​ `git clone https://github.com/username/username.github.io` username 是用户自己的注册名；
 
-​				`cd username.github.io`
+5.移动到本地拉取的库文件中
 
-​		3.提交数据到远程github中
+​ `cd username.github.io`
 
-​			1.查看更改的文件 git status
+​ 3.提交数据到远程 github 中
 
-​			7.将新建文件添加到一个存储区 git add --all （添加全部更改文件） /git add 文件名 （添加某个文件）
+​ 1.查看更改的文件 git status
 
-​			8.git commit -m "本次操作的简述"
+​ 7.将新建文件添加到一个存储区 git add --all （添加全部更改文件） /git add 文件名 （添加某个文件）
 
-​			9.git push -u origin master  上传到远端
+​ 8.git commit -m "本次操作的简述"
+
+​ 9.git push -u origin master 上传到远端

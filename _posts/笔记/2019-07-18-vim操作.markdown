@@ -2,40 +2,41 @@
 layout: blog
 istop: true
 title: "安装vim"
-background-image: 
-date:  2019-07-18
+background-image:
+date: 2019-07-18
 category: 笔记
-tags:安装vim
+tags: 安装vim
 ---
-### 安装vim 
 
-​	apt-get install vim
+### 安装 vim
 
-### liunx下的vim操作
+​ apt-get install vim
 
-​	 / ：搜索内容
+### liunx 下的 vim 操作
 
-​	 i ：进入插入模式
+​ / ：搜索内容
 
-​	 esc：退出当前操作
+​ i ：进入插入模式
 
- 	shift + ；：输入命令
+​ esc：退出当前操作
 
-​	 q + <Enter>： 推出vim
+shift + ；：输入命令
 
-​	 q！+ <Enter>：强制退出
+​ q + <Enter>： 推出 vim
 
-​	 w + <Enter>：保存当前内容
+​ q！+ <Enter>：强制退出
 
-​	 wq + <Enter>：保存并退出
+​ w + <Enter>：保存当前内容
 
- 	help + <Enter>: 查看帮助
+​ wq + <Enter>：保存并退出
+
+help + <Enter>: 查看帮助
 
 选中后就可以用编辑命令对其进行编辑，如
-	d   删除
+d 删除
 
-​	y   复制 （默认是复制到"寄存器）
+​ y 复制 （默认是复制到"寄存器）
 
-​	p  粘贴 （默认从"寄存器取出内容粘贴）
+​ p 粘贴 （默认从"寄存器取出内容粘贴）
 
 ###

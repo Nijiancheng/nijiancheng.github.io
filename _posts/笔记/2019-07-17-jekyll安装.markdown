@@ -2,68 +2,64 @@
 layout: blog
 istop: true
 title: "jekyll安装"
-background-image: 
-date:  2019-07-17
+background-image:
+date: 2019-07-17
 category: 笔记
 tags: jekyll安装
 ---
-
-
 
 ## jekyll
 
 安装环境要求文件
 
-​		`sudo apt-get install ruby-full build-essential zlib1g-dev`  
+​ `sudo apt-get install ruby-full build-essential zlib1g-dev`
 
 将环境变量写入文件配置中
 
-​	    `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
+​ `echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc`
 
-​		`echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
+​ `echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc`
 
-​		`echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
+​ `echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc`
 
-​		`source ~/.bashrc`
+​ `source ~/.bashrc`
 
-安装jekyll
+安装 jekyll
 
-​		`gem install jekyll bundler`
+​ `gem install jekyll bundler`
 
-创建一个新的jekyll网站
+创建一个新的 jekyll 网站
 
-​		`jekyll new myblog`
+​ `jekyll new myblog`
 
 转到新目录
 
-​		`cd myblog`  
+​ `cd myblog`
 
 构建站点并在本地服务器上使用
 
-​		`bundle exec jekyll serve`
+​ `bundle exec jekyll serve`
 
-## jekyll博客使用中出现的问题
+## jekyll 博客使用中出现的问题
 
-jekyll博客后台运行：
+jekyll 博客后台运行：
 
-​	`jekyll serve --detach `
+​ `jekyll serve --detach`
 
 由于某个后台运行正在启动，再次启动该服务会报错
 
-​	`Error:  Address already in use - bind(2) for 127.0.0.1:4000`
+​ `Error: Address already in use - bind(2) for 127.0.0.1:4000`
 
-![](2019-07-18 11-47-06服务端口被占用报错信息.png)
-
-
+![](/style/images/2019-07-18 11-47-06 服务端口被占用报错信息.png)
 
 可以用下面命令查看端口被什么服务占用：
 
-​	`lsof -i ：端口号`
+​ `lsof -i ：端口号`
 
-![](2019-07-18 11-51-44占用端口的服务.png)
+![](/style/images/2019-07-18 11-51-44 占用端口的服务.png)
 
 停止占用端口的服务：
 
-​	`kill -9 3237  （3237是服务号）`
+​ `kill -9 3237 （3237是服务号）`
 
-![](2019-07-18 11-52-19停掉占用端口的服务.png)
+![](/style/images/2019-07-18 11-52-19 停掉占用端口的服务.png)
