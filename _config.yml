@@ -10,20 +10,20 @@ url: https://github.com/zxixia/jekyll-xixia
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+baseurl: ""
 ## default date_format
-date_format: 
+date_format:
   title: "%B-%-d-%Y"
   archive: "%b"
   categories: "%b-%Y"
   tag: "%b-%Y"
 # Language
-lan: "en" 
+lan: "cn"
 
 paginate: 10
 
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
+gems: ["jekyll-paginate"]
 
-exclude: ['README.md', 'LICENSE', "*.bak"]
+exclude: ["README.md", "LICENSE", "*.bak"]
