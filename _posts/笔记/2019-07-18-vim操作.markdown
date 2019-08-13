@@ -2,10 +2,10 @@
 layout: blog
 istop: true
 title: "安装vim"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-18
 category: 笔记
-tags: 安装vim
+tags: 安装 vim
 ---
 
 ### 安装 vim
@@ -39,4 +39,4 @@ d 删除
 
 ​ p 粘贴 （默认从"寄存器取出内容粘贴）
 
-###
+

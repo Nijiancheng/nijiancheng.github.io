@@ -2,7 +2,7 @@
 layout: blog
 istop: true
 title: "git 安装"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-18
 category: 笔记
 tags: git 安装

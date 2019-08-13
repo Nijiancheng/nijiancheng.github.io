@@ -2,7 +2,7 @@
 layout: blog
 istop: true
 title: "ubuntu安装qq"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-18
 category: 笔记
 tags: ubuntu安装qq

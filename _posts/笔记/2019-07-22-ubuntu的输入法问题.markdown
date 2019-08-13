@@ -2,13 +2,13 @@
 layout: blog
 istop: true
 title: "ubuntu输入法问题"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-22
 category: 笔记
-tags: ubuntu输入法问题
+tags: 输入法
 ---
 
-#### ubuntu 的输入法问题：
+## ubuntu 的输入法问题：
 
 在 Ubuntu 中会出现中文无法使用数字选择的问题，可以安装搜狗拼音输入法来解决：
 

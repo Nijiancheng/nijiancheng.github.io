@@ -2,15 +2,15 @@
 layout: blog
 istop: true
 title: "markdown操作"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-18
 category: 笔记
-tags: markdown操作
+tags: markdown
 ---
 
-### markdown 操作
+## markdown 操作
 
-#### 标题：
+### 标题：
 
 ​ # 一级标题
 
@@ -26,7 +26,7 @@ tags: markdown操作
 
 **注意**：（只有六级，从大到小）
 
-#### 字体：
+### 字体：
 
 ​ 加粗： `**...**`
 
@@ -36,7 +36,7 @@ tags: markdown操作
 
 ​ 删除线：`~~...~~`
 
-#### 表格：
+### 表格：
 
 `...|...|...`
 
@@ -53,15 +53,15 @@ tags: markdown操作
 | 语文   |  数学  | 英语   |
 | 地理   |  生物  | 历史   |
 
-#### 图片：
+### 图片：
 
 `![title](图片地址)`
 
-#### 分割线:
+### 分割线:
 
 三个-或+或\*
 
-#### 列表：
+### 列表：
 
 无序列表：- + \*
 

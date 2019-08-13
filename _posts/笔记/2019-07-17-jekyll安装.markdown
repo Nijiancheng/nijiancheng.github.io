@@ -2,7 +2,7 @@
 layout: blog
 istop: true
 title: "jekyll安装"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-17
 category: 笔记
 tags: jekyll安装

@@ -2,13 +2,13 @@
 layout: blog
 istop: true
 title: "liunx下的C语言学习操作（2）"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-21
 category: 笔记
-tags: liunx下的C语言学习操作（2）
+tags: liunx C
 ---
 
-#### main 函数详解：
+### main 函数详解：
 
 ​ main 函数中的 return：
 
@@ -26,7 +26,7 @@ tags: liunx下的C语言学习操作（2）
 
 ---
 
-#### 输入输出流和错误流：
+### 输入输出流和错误流：
 
 ​ 输入流：stdin 默认是标准键盘
 
@@ -44,7 +44,7 @@ tags: liunx下的C语言学习操作（2）
 
 ---
 
-#### 重定向：
+### 重定向：
 
 ​ 可以将原本默认的输入、输出或报错目标进行更改。
 
@@ -58,7 +58,7 @@ tags: liunx下的C语言学习操作（2）
 
 ---
 
-#### 管道原理：
+### 管道原理：
 
 ​ 管道符：| ；将管道符前的命令输出流作为管道符后命令的输入流
 

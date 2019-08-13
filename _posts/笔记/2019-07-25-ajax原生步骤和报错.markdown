@@ -2,13 +2,13 @@
 layout: blog
 istop: true
 title: "AJAX"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-25
 category: 笔记
 tags: AJAX
 ---
 
-#### AJAX：
+## AJAX：
 
 ​ 原生请求过程：
 
@@ -55,7 +55,7 @@ tags: AJAX
 
 ​ --用于上传数据（如用户注册）把数据放在不是 URL 的地方；安全性一般、容量几乎无限、不便于分享
 
-#### error 报错：
+### error 报错：
 
     1. 请求失败，直接查看报错信息
 

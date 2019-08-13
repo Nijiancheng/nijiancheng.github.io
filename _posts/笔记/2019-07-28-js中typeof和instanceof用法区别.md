@@ -2,7 +2,7 @@
 layout: blog
 istop: true
 title: "typeof和instanceof的区别"
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-28
 category: 笔记
 tags: typeof instanceof

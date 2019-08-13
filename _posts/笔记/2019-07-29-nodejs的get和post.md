@@ -2,13 +2,13 @@
 layout: blog
 istop: true
 title: "nodejs的get和post "
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-29
 category: 笔记
 tags: get post
 ---
 
-#### nodejs:
+## nodejs:
 
 GET
 GET 请求的参数在 URL 中.

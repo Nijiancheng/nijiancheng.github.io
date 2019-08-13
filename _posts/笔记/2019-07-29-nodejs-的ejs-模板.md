@@ -2,15 +2,15 @@
 layout: blog
 istop: true
 title: "ejs模板 "
-background-image:
+background-image: "/style/image/background.jpeg"
 date: 2019-07-29
 category: 笔记
 tags: ejs安装和使用
 ---
 
-### ejs:
+## ejs:
 
-###### ejs 模版
+### ejs 模版
 
 node 中有很多模板 ejs 只是其中一个
 http://www.embeddedjs.com/ #官网
@@ -29,7 +29,7 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 这样就可以使用 cnpm 命令来安装模块了：
 $ cnpm install [name]
 
-###### ejs 使用：
+### ejs 使用：
 
 ​ 在 app.js 添加:
 
@@ -47,7 +47,7 @@ index.js 向模板传递数据（以 json 格式）
  });
 ```
 
-###### 模板文件 index.ejs 接收数据： 　
+### 模板文件 index.ejs 接收数据： 　
 
 <%= json 数据名 %> //不解析 HTML 代码，直接显示
 
