@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "ejs模板 "
 background-image: "/style/image/background.jpeg"
 date: 2019-07-29

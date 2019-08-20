@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "liunx下的C语言学习操作（2）"
 background-image: "/style/image/background.jpeg"
 date: 2019-07-21

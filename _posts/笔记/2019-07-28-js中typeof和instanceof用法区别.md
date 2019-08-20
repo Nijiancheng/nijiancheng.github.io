@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "typeof和instanceof的区别"
 background-image: "/style/image/background.jpeg"
 date: 2019-07-28

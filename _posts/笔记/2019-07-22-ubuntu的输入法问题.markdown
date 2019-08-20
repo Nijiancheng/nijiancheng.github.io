@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "ubuntu输入法问题"
 background-image: "/style/image/background.jpeg"
 date: 2019-07-22

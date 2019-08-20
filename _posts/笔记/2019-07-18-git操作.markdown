@@ -1,6 +1,6 @@
 ---
 layout: blog
-istop: true
+istop: false
 title: "git 安装"
 background-image: "/style/image/background.jpeg"
 date: 2019-07-18
