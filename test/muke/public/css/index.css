@@ -35,72 +35,12 @@ a:hover {
   box-sizing: border-box;
 }
 
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
-.col-3 {
-  width: 25%;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
-.col-5 {
-  width: 41.66%;
-}
-
-.col-6 {
-  width: 50%;
-}
-
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
 .clear:after {
-  content: '';
+  content: "";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-
-.row:after {
-  content: "";
-  clear: both;
-  display: block;
 }
 
 .mt10 {
@@ -122,8 +62,6 @@ a:hover {
 .mt50 {
   margin-top: 50px;
 }
-
-
 
 /* 头部 */
 #header {
@@ -334,12 +272,9 @@ a:hover {
 .banner_left {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  display: flex;
-  flex-wrap: wrap;
   width: 216px;
   height: 444px;
   padding-top: 12px;
-  justify-content: flex-end;
   background: #2b333b;
 }
 
@@ -349,17 +284,6 @@ a:hover {
   width: 216px;
   padding-left: 12px;
   height: 60px;
-}
-
-.daohang {
-  display: block;
-  padding: 0 12px;
-  height: 60px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  text-align: left;
-  line-height: 60px;
-  color: rgb(255, 255, 255, 0.6);
 }
 
 .banner_li i {
@@ -372,8 +296,15 @@ a:hover {
   height: 5px;
 }
 
-.cate_li a:hover {
-  color: red;
+.daohang {
+  display: block;
+  padding: 0 12px;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: left;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .daohang:hover {
@@ -422,7 +353,7 @@ a:hover {
   top: -373px;
 }
 
-.daohang:hover+.cate {
+.daohang:hover + .cate {
   display: block;
 }
 
@@ -439,48 +370,36 @@ a:hover {
 }
 
 .cate_top div {
-  position: relative;
-  top: 25px;
+  /* position: relative; */
+  /* top: 25px; */
   height: 0px;
-  margin: 10px 0;
+  margin: 25px 0;
   border: 0.5px solid #dedede;
 }
 
 .cate_top span {
-  position: relative;
-  top: -31px;
+  position: absolute;
+  top: 5px;
   padding-right: 15px;
   display: block;
   float: left;
   background: #fff;
   font-weight: 500px;
   color: red;
-}
-
-.cate_top ul {
-  position: relative;
-  top: -30px;
-}
-
-.cate_li:before {
-  display: table;
-}
-
-.cate_li:after {
-  clear: both;
+  overflow: hidden;
 }
 
 .cate_li a {
-  color: #4D555D;
+  color: #4d555d;
   font-size: 14px;
   margin-bottom: 16px;
-  margin-right: 25px;
-  display: inline-block;
-  line-height: 22px;
+  margin-right: 20px;
+  display: block;
+  line-height: 20px;
+  float: left;
 }
-
-.cate_li li a:hover {
-  color: #f01414;
+.cate_li a:hover {
+  color: red;
 }
 
 .cate_bottom {
@@ -488,12 +407,11 @@ a:hover {
   width: 100%;
   position: relative;
   padding: 36px 0 0 48px;
-  background: #F8FAFC;
-  ;
+  background: #f8fafc;
 }
 
 .cate_bottom:after {
-  content: '';
+  content: "";
   clear: both;
 }
 
@@ -517,7 +435,7 @@ a:hover {
   border-radius: 5px;
 }
 
-.banner_img_box {
+.cate_bottom_img {
   float: left;
 }
 
@@ -663,7 +581,7 @@ a:hover {
 }
 
 .web_img {
-  background: url(../image/path-2019.png) no-repeat 0 0;
+  background: url(../image/path-2019.png) no-repeat 0 -1px;
   background-size: 100%;
 }
 
@@ -712,7 +630,6 @@ a:hover {
   width: 1152px;
   margin: auto;
   /* border: 1px solid #07111b; */
-
 }
 
 .list_top {
@@ -737,15 +654,13 @@ h3 b {
 .list_center {
   display: flex;
   align-items: center;
-  color: #4D555D;
-
+  color: #4d555d;
 }
 
 .list_left {
   width: 56px;
   height: 36px;
   margin-right: 20px;
-
   background-size: 100%;
 }
 
@@ -828,14 +743,15 @@ h3 b {
   width: 216px;
 }
 
-.listLists {
+.lists_list li {
   width: 216px;
   height: 113px;
 }
 
-.small_list {
+/* .small_list {
+  width: 216px;
   height: 113px;
-}
+} */
 
 .lists_list img {
   width: 100%;
@@ -898,10 +814,11 @@ h3 b {
   width: 216px;
   height: 113px;
   top: 0px;
+  left: 0px;
   border-radius: 8px;
   z-index: 3;
   background-size: cover;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .img_mid {
@@ -915,8 +832,7 @@ h3 b {
   z-index: 2;
   background-size: cover;
   opacity: 0.4;
-  transition: all .3s;
-
+  transition: all 0.3s;
 }
 
 .img_down {
@@ -930,7 +846,7 @@ h3 b {
   z-index: 1;
   background-size: cover;
   opacity: 0.2;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .lists_list:hover .img_up {
@@ -1074,7 +990,7 @@ h3 b {
 }
 
 .color_grey {
-  color: rgb(170, 165, 165)
+  color: rgb(170, 165, 165);
 }
 
 .color_green {
@@ -1175,21 +1091,21 @@ h3 b {
 
 .flow_lines span {
   margin-right: 20px;
-  color: #93999F;
+  color: #93999f;
   line-height: 24px;
 }
 
 .flow_lines a:hover {
-  color: #008CC8;
+  color: #008cc8;
 }
 
 .lines_answered {
-  color: #4D555D;
+  color: #4d555d;
 }
 
 .flow_msg {
   margin-top: 20px;
-  color: #4D555D;
+  color: #4d555d;
   line-height: 24px;
   font-size: 12px;
   font-weight: 400;
@@ -1203,7 +1119,7 @@ h3 b {
   margin: 40px auto;
 }
 
-.tooic_title {
+.topic_title {
   font-size: 14px;
   float: left;
   width: 222px;
@@ -1224,14 +1140,14 @@ h3 b {
 }
 
 .flow_bottom:hover {
-  color: #00B43C;
+  color: #00b43c;
 }
 
 .flow_line {
   position: relative;
   height: 1px;
   margin: 24px 0;
-  background-color: #D9DDE1;
+  background-color: #d9dde1;
   font-weight: 400;
 }
 
@@ -1240,7 +1156,7 @@ h3 b {
   font-size: 12px;
   background: #fff;
   padding-right: 12px;
-  color: #93999F;
+  color: #93999f;
   line-height: 16px;
   top: -8px;
   left: 0px;
@@ -1251,7 +1167,6 @@ h3 b {
   height: 72px;
   float: right;
 }
-
 
 /* 底部讲师 */
 .bottom_user {
@@ -1304,7 +1219,7 @@ h3 b {
   top: -10px;
   width: 96px;
   height: 96px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .user_name {
@@ -1314,14 +1229,14 @@ h3 b {
   font-size: 16px;
   font-weight: 700;
   color: black;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .user_work {
   display: block;
   font-size: 13px;
   margin-bottom: 10px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .user_info {
@@ -1330,11 +1245,11 @@ h3 b {
   word-break: break-all;
   padding: 0 36px;
   height: 72px;
-  color: #4D555D;
+  color: #4d555d;
   font-size: 12px;
   line-height: 24px;
   overflow: hidden;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 /* 吊炸天明星 */
@@ -1346,7 +1261,6 @@ h3 b {
 .bottom_star {
   width: 1152px;
   margin: 0 auto;
-
 }
 
 .star_list {
