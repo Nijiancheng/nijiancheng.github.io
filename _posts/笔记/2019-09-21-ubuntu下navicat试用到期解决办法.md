@@ -10,7 +10,11 @@ tags: ubuntu navicat 试用到期
 
 ### ubuntu下navicat试用到期解决办法
 
-直接删除 /home目录下的  .navicat文件夹（此文件夹隐藏），如果你是64位，文件夹名称可能为 .navicat64。
+直接删除 /home(有的可能在/root下)目录下的  .navicat文件夹（此文件夹隐藏），如果你是64位，文件夹名称可能为 .navicat64。
+
+`cd /root`
+
+`ls -al`
 
 `rm -rf .navcat`
 
